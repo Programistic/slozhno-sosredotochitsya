@@ -114,11 +114,6 @@
   grid-template-columns: 1.02fr 2fr;
 }
 
-.gallery-title {
-  margin: 80px 0 20px;
-  grid-column: 1 / -1;
-}
-
 .article__title {
   margin: 0 0 20px;
 }
@@ -165,6 +160,11 @@
   'sunset sunset ice-cream'
   'tape books ice-cream'
   'tape street street';
+}
+
+.gallery-title {
+  margin: 80px 0 20px;
+  grid-column: 1 / -1;
 }
 
 .image {
