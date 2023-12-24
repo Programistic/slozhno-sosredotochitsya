@@ -1,0 +1,8 @@
+.pixel {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.5;
+  filter: sepia(0.6);
+} 

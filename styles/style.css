@@ -1,4 +1,5 @@
 .page {
+  
   min-inline-size: 375px;
   max-inline-size: 1440px;
   box-sizing: border-box;
@@ -6,6 +7,15 @@
   background-color: var(--bg-color);
   background-attachment: fixed;
 }
+
+.pixel {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.5;
+  filter: sepia(0.6);
+} 
 
 .title {
   margin: 0;
@@ -89,6 +99,7 @@
 .header__title {
   margin: 273px 0 0;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  line-height: .83;
   color: var(--main-title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
 }
@@ -116,6 +127,7 @@
 
 .article__title {
   margin: 0 0 20px;
+  max-width: 315px;
 }
 
 .article__list {
