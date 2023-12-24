@@ -130,8 +130,20 @@
 
 .header__decor-item {
   position: absolute;
-  inset: 22px 20px auto auto;
-  color: transparent;
+  inset: 24px 48px auto auto;
+  color: var(--decor-item-color);
+}
+
+.header__decor-item:after {
+  position: absolute;
+  content: '';
+  inset-inline-start: 45px;
+  inset-block-start: 3px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--decor-item-color);
+  filter: blur(2px);
 }
 
 .article {
