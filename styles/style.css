@@ -1,5 +1,4 @@
 .page {
-  
   min-inline-size: 375px;
   max-inline-size: 1440px;
   box-sizing: border-box;
@@ -8,6 +7,14 @@
   background-attachment: fixed;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  padding: 60px 20px;
+}
+
+/*
 .pixel {
   position: fixed;
   top: 0;
@@ -15,7 +22,8 @@
   transform: translateX(-50%);
   opacity: 0.5;
   filter: sepia(0.6);
-} 
+}
+*/
 
 .title {
   margin: 0;
@@ -55,7 +63,7 @@
 
 .header {
   position: relative;
-  margin: 0 0 60px;
+  margin: 0;
   padding: 20px 0 135px;
   background-position: center;
   background-size: cover;
@@ -67,6 +75,7 @@
   column-gap: 10px;
   justify-content: center;
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -117,8 +126,6 @@
 
 .article {
   display: grid;
-  margin: 0 0 80px;
-  padding: 0 20px;
 }
 
 .article_type_two-columns {
@@ -159,7 +166,7 @@
 }
 
 .article__paragraph:last-child {
-  margin: 10px 0 0;
+  margin-bottom: 0;
 }
 
 .article__gallery {
