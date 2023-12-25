@@ -84,7 +84,7 @@
   .header__theme-menu-list {
     flex-direction: column;
     width: min-content;
-    margin: 170px 20px 0 auto;
+    margin: 172px 20px 0 auto;
   }
 }
 
@@ -130,6 +130,12 @@
   line-height: .83;
   color: var(--main-title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
+}
+
+@media (width <= 768px) {
+  .header__title {
+    margin: 173px 0 0;
+  }
 }
 
 .header__subtitle {
