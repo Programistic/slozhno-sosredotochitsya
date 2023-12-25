@@ -12,6 +12,8 @@
 
 .page.theme_dark > .header {
   background-image: url(../images/cover-image-dark.png);
+  background-position: center;
+  background-size: cover;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,5 +32,7 @@
 
   .page > .header {
     background-image: url(../images/cover-image-dark.png);
+    background-position: center;
+    background-size: cover;
   }
 }
