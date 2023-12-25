@@ -13,3 +13,22 @@
 .page.theme_dark > .header {
   background-image: url(../images/cover-image-dark.png);
 }
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    --main-title-color: #db00ff;
+    --title-color: #ff0070;
+    --subtitle-color: #353430;
+    --color: #f1b2ce;
+    --accent-color: #ff0070;
+    --bg-color: #000028;
+    --accent-bg-color: #ff0070;
+    --button-color: #ff0070;
+    --border-color: #ff0070;
+    --decor-item-color: #ff0070;
+  }
+
+  .page > .header {
+    background-image: url(../images/cover-image-dark.png);
+  }
+}
