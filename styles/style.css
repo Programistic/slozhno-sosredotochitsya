@@ -73,7 +73,7 @@
 
 .header__theme-menu-list {
   display: flex;
-  column-gap: 10px;
+  gap: 10px;
   justify-content: center;
   margin: 0;
   padding: 0;
@@ -84,7 +84,7 @@
   .header__theme-menu-list {
     flex-direction: column;
     width: min-content;
-    margin: 192px 33px 0 auto;
+    margin: 170px 20px 0 auto;
   }
 }
 
@@ -172,6 +172,12 @@
 .article__title {
   margin: 0 0 20px;
   max-width: 315px;
+}
+
+@media (width <= 768px) {
+  .article__title {
+    max-width: 236px;
+  }
 }
 
 .article__list {
@@ -279,6 +285,12 @@
   justify-content: center;
   align-items: center;
   min-height: 768px;
+}
+
+@media (width <= 768px) {
+  .footer {
+    min-height: 1054px;
+  }
 }
 
 .footer__title {
