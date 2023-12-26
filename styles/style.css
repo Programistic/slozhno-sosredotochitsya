@@ -302,7 +302,7 @@
 
 @media (width <= 768px) {
   .footer {
-    min-height: 1054px;
+    min-height: 1024px;
   }
 }
 
