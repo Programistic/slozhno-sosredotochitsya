@@ -169,10 +169,17 @@
 
 .article {
   display: grid;
+  column-gap: 20px;
 }
 
 .article_type_two-columns {
-  grid-template-columns: 1.02fr 2fr;
+  grid-template-columns: 1fr 2.1fr;
+}
+
+@media (width <= 768px) {
+  .article_type_two-columns {
+    grid-template-columns: 1fr 2fr;
+  }
 }
 
 .article__title {
