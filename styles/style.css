@@ -14,6 +14,13 @@
   padding: 60px 20px;
 }
 
+@media (width <= 375px) {
+  .main-content {
+    row-gap: 50px;
+    padding: 40px 10px;
+  }
+}
+
 /*
 .pixel {
   position: fixed;
@@ -71,6 +78,12 @@
   background-repeat: no-repeat;
 }
 
+@media (width <= 375px) {
+  .header {
+    padding: 20px 10px 66px;
+  }
+}
+
 .header__theme-menu-list {
   display: flex;
   gap: 10px;
@@ -85,6 +98,12 @@
     flex-direction: column;
     width: min-content;
     margin: 172px 20px 0 auto;
+  }
+}
+
+@media (width <= 375px) {
+  .header__theme-menu-list {
+    margin: 75px 0 0 auto;
   }
 }
 
@@ -132,9 +151,16 @@
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
-@media (width <= 768px) {
+@media (375px < width <= 768px) {
   .header__title {
     margin: 173px 0 0;
+  }
+}
+
+@media (width <= 375px) {
+  .header__title {
+    margin: 65px 0 0;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
 
@@ -143,9 +169,16 @@
   max-width: 47.8%;
 }
 
-@media (width <= 768px) {
+@media (375px < width <= 768px) {
   .header__subtitle {
     margin: 162px 20px 49px auto;
+  }
+}
+
+@media (width <= 375px) {
+  .header__subtitle {
+    max-width: 100%;
+    margin: 55px 10px 0;
   }
 }
 
@@ -172,6 +205,12 @@
   column-gap: 20px;
 }
 
+@media (width <= 375px) {
+  .article {
+    display: block;
+  }
+}
+
 .article_type_two-columns {
   grid-template-columns: 1fr 2.1fr;
 }
@@ -187,7 +226,7 @@
   max-width: 315px;
 }
 
-@media (width <= 768px) {
+@media (375px < width <= 768px) {
   .article__title {
     max-width: 236px;
   }
@@ -260,9 +299,23 @@
   'tape street street';
 }
 
+@media (width <= 375px) {
+  .article__gallery {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}
+
 .gallery-title {
   margin: 80px 0 20px;
   grid-column: 1 / -1;
+}
+
+@media (width <= 375px) {
+  .gallery-title {
+    margin: 50px 0 10px;
+  }
 }
 
 .image {
@@ -300,9 +353,15 @@
   min-height: 768px;
 }
 
-@media (width <= 768px) {
+@media (375px < width <= 768px) {
   .footer {
     min-height: 1024px;
+  }
+}
+
+@media (width <= 375px) {
+  .footer {
+    min-height: 667px;
   }
 }
 
@@ -311,4 +370,10 @@
   line-height: .83;
   color: var(--main-title-color);
   text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+@media (width <= 375px) {
+  .footer__title {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
 }
