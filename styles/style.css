@@ -69,6 +69,16 @@
   border-inline-start: 1px solid var(--border-color);
 }
 
+@media (width <= 375px) {
+  .decorated-zone:after {
+    inset: 10px 10px auto auto;
+  }
+  
+  .decorated-zone::before {
+    inset: auto auto 10px 10px;
+  }
+}
+
 .header {
   position: relative;
   margin: 0;
@@ -103,7 +113,7 @@
 
 @media (width <= 375px) {
   .header__theme-menu-list {
-    margin: 75px 0 0 auto;
+    margin: 55px 0 0 auto;
   }
 }
 
@@ -178,7 +188,7 @@
 @media (width <= 375px) {
   .header__subtitle {
     max-width: 100%;
-    margin: 55px 10px 0;
+    margin: 55px 0 0;
   }
 }
 
