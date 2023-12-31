@@ -9,12 +9,11 @@
   --border-color: #ff0070;
   --border-color-hover: rgba(255, 0, 112, .4);
   --decor-item-color: #ff0070;
+  --header-cover-image-dark: url(../images/cover-image-dark.png)
 }
 
 .page.theme_dark > .header {
-  background-image: url(../images/cover-image-dark.png);
-  background-position: center;
-  background-size: cover;
+  background-image: var(--header-cover-image-dark);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32,8 +31,6 @@
   }
 
   .page > .header {
-    background-image: url(../images/cover-image-dark.png);
-    background-position: center;
-    background-size: cover;
+    background-image: var(--header-cover-image-dark);
   }
 }

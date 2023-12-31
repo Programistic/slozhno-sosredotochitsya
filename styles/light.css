@@ -9,6 +9,7 @@
   --button-color: #353430;
   --border-color: #353430;
   --decor-item-color: #fff1f7;
+  --header-cover-image-light: url(../images/cover-image-light.png);
 }
 
 @media (width <= 768px) {
@@ -18,9 +19,7 @@
 }
 
 .page.theme_light > .header {
-  background-image: url(../images/cover-image-light.png);
-  background-position: center;
-  background-size: cover;
+  background-image: var(--header-cover-image-light);
 }
 
 @media (prefers-color-scheme: light) {
@@ -40,9 +39,7 @@
   }
 
   .page > .header {
-    background-image: url(../images/cover-image-light.png);
-    background-position: center;
-    background-size: cover;
+    background-image: var(--header-cover-image-light);
   }
 }
 
