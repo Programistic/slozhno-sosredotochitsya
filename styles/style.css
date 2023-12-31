@@ -183,20 +183,27 @@
 
 .header__decor-item {
   position: absolute;
-  inset: 24px 48px auto auto;
+  inset: 20px 48px auto auto;
+  font: 400 18px/1.39 var(--main-font), 'Arial', sans-serif;
   color: var(--decor-item-color);
+  text-transform: uppercase;
 }
 
 .header__decor-item:after {
   position: absolute;
   content: '';
-  inset-inline-start: 45px;
-  inset-block-start: 3px;
-  width: 12px;
-  height: 12px;
+  inset: 8px auto auto 43px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
   background-color: var(--decor-item-color);
-  filter: blur(2px);
+  box-shadow: 0 0 4px 2px var(--decor-item-color);
+}
+
+@media (width <= 375px) {
+  .header__decor-item {
+    inset: 10px 38px auto auto;
+  }
 }
 
 .article {
