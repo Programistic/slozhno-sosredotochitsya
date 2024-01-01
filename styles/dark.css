@@ -10,11 +10,7 @@
   --border-color: #ff0070;
   --border-color-hover: rgba(255, 0, 112, .4);
   --decor-item-color: #ff0070;
-  --header-cover-image-dark: url(../images/cover-image-dark.png);
-}
-
-.page.theme_dark > .header {
-  background-image: var(--header-cover-image-dark);
+  background-image: url(../images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,9 +25,6 @@
     --button-color: #ff0070;
     --border-color: #ff0070;
     --decor-item-color: #ff0070;
-  }
-
-  .page > .header {
-    background-image: var(--header-cover-image-dark);
+    background-image: url(../images/cover-image-dark.png);
   }
 }

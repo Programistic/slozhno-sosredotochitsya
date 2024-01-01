@@ -9,17 +9,13 @@
   --button-color: #353430;
   --border-color: #353430;
   --decor-item-color: #fff1f7;
-  --header-cover-image-light: url(../images/cover-image-light.png);
+  background-image: url(../images/cover-image-light.png);
 }
 
 @media (width <= 768px) {
   .page.theme_light {
     --accent-color: #ff8dcb;
   }
-}
-
-.page.theme_light > .header {
-  background-image: var(--header-cover-image-light);
 }
 
 @media (prefers-color-scheme: light) {
@@ -36,10 +32,7 @@
     --border-color: #353430;
     --border-color-hover: rgba(50, 49, 45, .4);
     --decor-item-color: #fff1f7;
-  }
-
-  .page > .header {
-    background-image: var(--header-cover-image-light);
+    background-image: url(../images/cover-image-light.png);
   }
 }
 
