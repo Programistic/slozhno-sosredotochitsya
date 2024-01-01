@@ -14,7 +14,7 @@
   padding: 60px 20px;
 }
 
-@media (width <= 375px) {
+@media (width <= 630px) {
   .main-content {
     row-gap: 50px;
     padding: 40px 10px;
@@ -58,7 +58,7 @@
   border-inline-start: 1px solid var(--border-color);
 }
 
-@media (width <= 375px) {
+@media (width <= 630px) {
   .decorated-zone:after {
     inset: 10px 10px auto auto;
   }
@@ -77,7 +77,7 @@
   background-repeat: no-repeat;
 }
 
-@media (width <= 375px) {
+@media (width <= 630px) {
   .header {
     padding: 20px 10px 66px;
   }
@@ -100,7 +100,7 @@
   }
 }
 
-@media (width <= 375px) {
+@media (width <= 630px) {
   .header__theme-menu-list {
     margin: 55px 0 0 auto;
   }
@@ -153,13 +153,13 @@
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
-@media (375px < width <= 768px) {
+@media (630px < width <= 768px) {
   .header__title {
     margin: 173px 0 0;
   }
 }
 
-@media (width <= 375px) {
+@media (width <= 630px) {
   .header__title {
     margin: 65px 0 0;
     font-size: var(--font-size-mobile);
@@ -167,17 +167,21 @@
 }
 
 .header__subtitle {
-  margin: 114px 20px 0 auto;
   max-width: 47.8%;
+  min-width: min-content;
+  margin: 114px 20px 0 auto;
+  padding: 0 3px 0 0;
 }
 
-@media (375px < width <= 768px) {
+@media (630px < width <= 768px) {
   .header__subtitle {
+    max-width: 50%;
     margin: 162px 20px 49px auto;
+    padding: 0 20px 0 0;
   }
 }
 
-@media (width <= 375px) {
+@media (width <= 630px) {
   .header__subtitle {
     max-width: 100%;
     margin: 55px 0 0;
@@ -203,7 +207,7 @@
   box-shadow: 0 0 4px 2px var(--decor-item-color);
 }
 
-@media (width <= 375px) {
+@media (width <= 630px) {
   .header__decor-item {
     inset: 10px 38px auto auto;
   }
@@ -214,7 +218,7 @@
   column-gap: 20px;
 }
 
-@media (width <= 375px) {
+@media (width <= 630px) {
   .article {
     display: block;
   }
@@ -235,7 +239,7 @@
   max-width: 315px;
 }
 
-@media (375px < width <= 768px) {
+@media (630px < width <= 768px) {
   .article__title {
     max-width: 236px;
   }
@@ -312,7 +316,7 @@
   'tape street street';
 }
 
-@media (width <= 375px) {
+@media (width <= 630px) {
   .article__gallery {
     display: flex;
     flex-direction: column;
@@ -325,7 +329,7 @@
   grid-column: 1 / -1;
 }
 
-@media (width <= 375px) {
+@media (width <= 630px) {
   .gallery-title {
     margin: 50px 0 10px;
   }
@@ -366,13 +370,13 @@
   min-height: 768px;
 }
 
-@media (375px < width <= 768px) {
+@media (630px < width <= 768px) {
   .footer {
     min-height: 1024px;
   }
 }
 
-@media (width <= 375px) {
+@media (width <= 630px) {
   .footer {
     min-height: 667px;
   }
@@ -385,7 +389,7 @@
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
-@media (width <= 375px) {
+@media (width <= 630px) {
   .footer__title {
     font-size: var(--font-size-mobile);
   }
