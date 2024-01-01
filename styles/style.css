@@ -215,7 +215,7 @@
 
 .article {
   display: grid;
-  column-gap: 20px;
+  gap: 20px;
 }
 
 @media (width <= 630px) {
@@ -235,13 +235,19 @@
 }
 
 .article__title {
-  margin: 0 0 20px;
+  margin: 0;
   max-width: 315px;
 }
 
 @media (630px < width <= 768px) {
   .article__title {
     max-width: 236px;
+  }
+}
+
+@media (width <= 630px) {
+  .article__title {
+    margin-bottom: 20px;
   }
 }
 
@@ -321,7 +327,7 @@
 }
 
 .gallery-title {
-  margin: 80px 0 20px;
+  margin: 60px 0 0;
   grid-column: 1 / -1;
 }
 
