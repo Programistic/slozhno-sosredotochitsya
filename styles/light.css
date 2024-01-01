@@ -9,7 +9,7 @@
   --button-color: #353430;
   --border-color: #353430;
   --decor-item-color: #fff1f7;
-  background-image: url(../images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
 }
 
 @media (width <= 768px) {
@@ -32,7 +32,7 @@
     --border-color: #353430;
     --border-color-hover: rgba(50, 49, 45, .4);
     --decor-item-color: #fff1f7;
-    background-image: url(../images/cover-image-light.png);
+    --bg-image: url(../images/cover-image-light.png);
   }
 }
 

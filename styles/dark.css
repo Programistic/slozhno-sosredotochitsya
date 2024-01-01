@@ -10,7 +10,7 @@
   --border-color: #ff0070;
   --border-color-hover: rgba(255, 0, 112, .4);
   --decor-item-color: #ff0070;
-  background-image: url(../images/cover-image-dark.png);
+  --bg-image: url(../images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,6 +25,6 @@
     --button-color: #ff0070;
     --border-color: #ff0070;
     --decor-item-color: #ff0070;
-    background-image: url(../images/cover-image-dark.png);
+    --bg-image: url(../images/cover-image-dark.png);
   }
 }
