@@ -4,16 +4,20 @@
 It is my training project from Yandex.Praktikum
 
 #### Project functionality
-The purpose of creating this web site is to learn<br>
-the skills of rubber layout.
+It is one-page an adaptive website. The purpose of creating<br>
+a website is to acquire skills in the use of BEM, Flex, Grid,<br>
+pseudoclasses, pseudoelements, media queries and CSS-variables
 
 #### Technology stack
 - HTML5
 - CSS3
 - BEM
-- Flex
-- Grid
-- variables
+- Flex Layout
+- Grid Layout
+- pseudoclasses
+- pseudoelements
+- CSS-variables
+- media queries
 
 #### Website link
 - https://programistic.github.io/slozhno-sosredotochitsya/
