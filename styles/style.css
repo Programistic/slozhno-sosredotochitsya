@@ -41,8 +41,7 @@
 .decorated-zone:after {
   position: absolute;
   content: '';
-  inset-block-start: 20px;
-  inset-inline-end: 20px;
+  inset: 20px 20px auto auto;
   width: 25px;
   height: 25px;
   border-block-start: 1px solid var(--border-color);
@@ -52,8 +51,7 @@
 .decorated-zone::before {
   position: absolute;
   content: '';
-  inset-block-end: 20px;
-  inset-inline-start: 20px;
+  inset: auto auto 20px 20px;
   width: 25px;
   height: 25px;
   border-block-end: 1px solid var(--border-color);
