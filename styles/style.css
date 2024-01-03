@@ -213,12 +213,12 @@
   }
 }
 
-.article_type_two-columns {
+.article:nth-child(odd) {
   grid-template-columns: 1fr 2.1fr;
 }
 
 @media (width <= 768px) {
-  .article_type_two-columns {
+  .article:nth-child(odd) {
     grid-template-columns: 1fr 2fr;
   }
 }
