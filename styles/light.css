@@ -8,6 +8,7 @@
   --accent-bg-color: #ff8dcb;
   --button-color: #353430;
   --border-color: #353430;
+  --border-color-hover: rgba(50, 49, 45, .4);
   --decor-item-color: #fff1f7;
   --bg-image: url(../images/cover-image-light.png);
 }
