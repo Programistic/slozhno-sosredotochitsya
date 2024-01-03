@@ -142,11 +142,6 @@
   color: var(--button-color);
 }
 
-.header__theme-menu-button_active:hover {
-  cursor: default;
-  border: 1px solid var(--border-color);
-}
-
 .header__theme-menu-button_active {
   border: 1px solid var(--border-color);
   pointer-events: none;
